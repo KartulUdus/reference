@@ -1,0 +1,9 @@
+logs/*.json
+config/*.json
+!config/default.json
+!config/custom-environment-variables.json
+npm-debug.log
+.DS_Store
+.env
+node_modules/*
+package-lock.json

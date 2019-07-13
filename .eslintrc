@@ -1,0 +1,12 @@
+{
+    "parserOptions": { "ecmaVersion": 10 },
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": [ "error", "tab", { "SwitchCase": 1 } ],
+        "semi": [ "error", "never" ],
+        "import/no-dynamic-require": [ "off" ],
+        "global-require": [ "off" ],
+        "no-tabs": [ "off" ],
+        "eol-last": [ "off" ]
+    }
+}

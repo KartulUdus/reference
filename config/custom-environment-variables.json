@@ -1,0 +1,24 @@
+{
+    "server": {
+        "host": "SERVICE_SERVER_HOST",
+        "port": {
+            "__name": "SERVICE_SERVER_PORT",
+            "__format": "json"
+          },
+        "ipWhitelist": {
+            "__name": "SERVICE_IP_WHITELIST",
+            "__format": "json"
+          },
+        "ipBlacklist": {
+            "__name": "SERVICE_IP_BLACKLIST",
+            "__format": "json"
+          }
+    },
+    "logger": {
+        "level": "SERVICE_LOGGER_LEVEL",
+        "logSize": {
+            "__name": "SERVICE_LOGGER_SIZE",
+            "__format": "json"
+          }
+    }
+}

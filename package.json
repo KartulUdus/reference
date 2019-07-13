@@ -1,0 +1,39 @@
+{
+  "name": "reference",
+  "version": "1.0.0",
+  "description": "Boilerplate for basic api with logs and config",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "lint": "./node_modules/.bin/eslint ./src --fix",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KartulUdus/reference.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "reference",
+    "api-template"
+  ],
+  "author": "Kartul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KartulUdus/reference/issues"
+  },
+  "homepage": "https://github.com/KartulUdus/reference#readme",
+  "dependencies": {
+    "config": "^3.2.0",
+    "dotenv": "^8.0.0",
+    "fastify": "^2.6.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "mocha": "^6.1.4"
+  }
+}
